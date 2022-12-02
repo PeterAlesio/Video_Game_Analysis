@@ -9,3 +9,6 @@ We as a group decided to look at Video Games sales over a long period of time to
 ## Communication protocols
 - For our group project, we elected to create a slack group chat to post updates on progress for the project.
 - We also use the slack huddle for small 2-person talks if needed, and we are using google meets for general team meetings.
+
+## Description of the EDA
+During the EDA, we found out that there was many repeating video game titles due to the same game being sold on multiple platforms. We also found an outlier with Wii sports as it was bundled in with the original wii which significantly inflated the total sales figure. Lastly we noticed that many small titles didnt have anyone to review those games which resulted in many nan values for reviews.

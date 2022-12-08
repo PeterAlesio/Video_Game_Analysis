@@ -33,15 +33,19 @@ We observed variations in global sales within the platforms with four(4) platfor
 ![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/Elfreda/Resources/globalsales_criticscore.png)
 
 - From the box and whiskers plot we observed potential ouliers for the global sales and some few outliers for the critic score.
+
 ![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/Elfreda/Resources/boxplot.png)
 
 - The scatter plot matrix also displays the relationship between global sales and critic score and we observed an increase pattern relationship as critic score increases the global sales increases.
+
 ![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/Elfreda/Resources/scatter_plot.png)
 
 - Lastly to quantify the relationship between critic score and global sales we used the Pearson correlation co efficint which was 0.248163.
+
 ![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/Elfreda/Resources/correlation_matrix.png)
 
 - The bar cart shows that after 2004 there has not been any significant changes in the global sales.
+
 ![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/Elfreda/Resources/bar_chart.png)
 
 

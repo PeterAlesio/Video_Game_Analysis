@@ -16,6 +16,12 @@ We as a group decided to look at Video Games sales over a long period of time to
 ## Description of the EDA
 During the EDA, we found out that there was many repeating video game titles due to the same game being sold on multiple platforms. We also found an outlier with Wii sports as it was bundled in with the original wii which significantly inflated the total sales figure. Lastly we noticed that many small titles didnt have anyone to review those games which resulted in many nan values for reviews.
 
+Additionally, we looked at the distributions on our variables. The different categories of Platform were distributed similarly with the exception of PS2 and DS. Same observations were made for the  Genre which had Misc, Sports and Action being different from the rest. As shown in the figure below.
+![Image]()
+
+Also Critic Score had a fairly normal distribution however Global Sales(in millions) was higly skewed as seen in the histogram charts below.
+![Image]()
+
 ## Database
 The database was created on Postgress which holds both the sales/critic score table and the games id table.
 ![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/main/SQL/ERD_Rev3.png)

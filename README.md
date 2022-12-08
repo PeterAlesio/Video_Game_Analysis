@@ -23,25 +23,26 @@ During the EDA, we found out that there was many repeating video game titles due
 In the video games sales data for the period between 2004 to 2008, we had a total of fifteen(15) variables which consist of 6 categorical variable and 8 continous variables with one(1) date variable being the year. There were two hundred and fifty three(2530) publishers, nine hundred and five(925) developers, twelve(12) Genres and eleven(11) platforms.
 
 From the immediate table below, there were a total of five thousand five hundred and thirty(5330) observations with an average overall global sales of 0.485968 million with a standard deviation of 1.380674 million. The global was obatined as a results of the sum of the regioanl sales (NA_Sales, EU_Sales, JP_Sales, Other_Sales,	Global_Sales). 
-![Image]()
+![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/Elfreda/Resources/Screen%20Shot%202022-12-08%20at%2010.34.34%20AM.png)
 
 We observed variations in global sales within the platforms with four(4) platforms having average sales higher than the average overall global sales. We also observerd variations in global sales within the genre with four(4) genre having average sales lower than the average overall global sales.
 
 #### Data Visualization.
 
 - From the figure, we used histogram to display the frequency distribution of the global sales and critic scores. We observed positive skewed distribution of global sales with over two thousand six hundred(2600) of the observations falling below the 0.16 million. Similarly the histogram of critic score being displayed has a fairly symmetric distribution.
-![Image]()
+![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/Elfreda/Resources/globalsales_criticscore.png)
 
 - From the box and whiskers plot we observed potential ouliers for the global sales and some few outliers for the critic score.
+![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/Elfreda/Resources/boxplot.png)
 
 - The scatter plot matrix also displays the relationship between global sales and critic score and we observed an increase pattern relationship as critic score increases the global sales increases.
-![Image]()
+![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/Elfreda/Resources/scatter_plot.png)
 
 - Lastly to quantify the relationship between critic score and global sales we used the Pearson correlation co efficint which was 0.248163.
-![Image]()
+![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/Elfreda/Resources/correlation_matrix.png)
 
 - The bar cart shows that after 2004 there has not been any significant changes in the global sales.
-![Image]()
+![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/Elfreda/Resources/bar_chart.png)
 
 
 

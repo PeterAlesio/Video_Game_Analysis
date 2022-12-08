@@ -8,7 +8,8 @@ https://public.tableau.com/app/profile/petera4738/viz/Video_Game_Analysis_166988
 
 ## Overview of project
 We as a group decided to look at Video Games sales over a long period of time to determine if game reviews are a significant factor when it comes to the success of a game. We selected this topic because we thought it would be an interesting subject to look into considering that the video game industry is worth over $200 billion dollars. For this analysis we are using two unique datasets. One of the datasets contains the sales numbers for many games dating as far back at 1975 covering the regions of North America, Europe, Japan, outside of the former regions, and a final global total. The second dataset contains the critic score and user score for thousands of video games. We hope to answer the question on if ctitic scores have any impact on sales figures.
-We used frequencies, mean, standrad deviation and quartiles for summary statistics. And histogram, bar chart, boxplot and scatter plots for our data visualization.
+
+We used frequencies, mean, standrad deviation and quartiles for summary statistics. And histogram, bar chart, boxplot and scatter plots for our data  visualization.  Support Vector Machine(SVM) with liner kernel and Support Vector Machine(SVM) with guassian kernel are the Machine Learning techniques used.
 
 ## Communication protocols
 - For our group project, we elected to create a slack group chat to post updates on progress for the project.
@@ -28,10 +29,35 @@ We observed variations in global sales within the platforms with four(4) platfor
 
 #### Data Visualization.
 
-From the figure, we used histogram to display the frequency distribution of the global sales and critic scores. We observed positive skewed distribution of global sales with over two thousand six hundred(2600) of the observations falling below the 0.16 million. Similarly the histogram of critic score being displayed has a fairly symmetric distribution.
+- From the figure, we used histogram to display the frequency distribution of the global sales and critic scores. We observed positive skewed distribution of global sales with over two thousand six hundred(2600) of the observations falling below the 0.16 million. Similarly the histogram of critic score being displayed has a fairly symmetric distribution.
 ![Image]()
 
-From the boxplot
+- From the box and whiskers plot we observed potential ouliers for the global sales and some few outliers for the critic score.
+
+- The scatter plot matrix also displays the relationship between global sales and critic score and we observed an increase pattern relationship as critic score increases the global sales increases.
+![Image]()
+
+- Lastly to quantify the relationship between critic score and global sales we used the Pearson correlation co efficint which was 0.248163.
+![Image]()
+
+- The bar cart shows that after 2004 there has not been any significant changes in the global sales.
+![Image]()
+
+
+
+## Machine Learning
+
+### Purpose: 
+Supervised Machine learning (ML) as an explicit computer algorithm are used to solve such classification problems. The purpose of this analysis is to employ different ML techniques to train and evaluate models to predict Global Sales. The techinques used here were Support Vector Machine(SVM) with liner kernel and Support Vector Machine(SVM) with guassian kernel. The evaluation metric used here is the R-squared and RMSE(Root Mean Squared Error).
+
+### Results:
+
+
+![image](https://user-images.githubusercontent.com/85681665/206475930-fd9883ce-c568-4179-92fe-415505c6df6b.png)
+
+From the above table the evaluation mertics for SVM(Gaussian) was better than SVM(linear). However it does not suggest a good model because of the small predictive power(R-Squared value = 0.095.
+
+
 
 
 

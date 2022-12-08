@@ -9,7 +9,7 @@ https://public.tableau.com/app/profile/petera4738/viz/Video_Game_Analysis_166988
 ## Overview of project
 We as a group decided to look at Video Games sales over a long period of time to determine if game reviews are a significant factor when it comes to the success of a game. We selected this topic because we thought it would be an interesting subject to look into considering that the video game industry is worth over $200 billion dollars. For this analysis we are using two unique datasets. One of the datasets contains the sales numbers for many games dating as far back at 1975 covering the regions of North America, Europe, Japan, outside of the former regions, and a final global total. The second dataset contains the critic score and user score for thousands of video games. We hope to answer the question on if ctitic scores have any impact on sales figures.
 
-We used frequencies, mean, standrad deviation and quartiles for summary statistics. And histogram, bar chart, boxplot and scatter plots for our data  visualization.  Support Vector Machine(SVM) with liner kernel and Support Vector Machine(SVM) with guassian kernel are the Machine Learning techniques used.
+We used frequencies, mean, standard deviation and quartiles for summary statistics. And histogram, bar chart, boxplot and scatter plots for our data  visualization.  Support Vector Machine(SVM) with linear kernel and Support Vector Machine(SVM) with guassian kernel are the Machine Learning techniques used.
 
 ## Communication protocols
 - For our group project, we elected to create a slack group chat to post updates on progress for the project.
@@ -20,7 +20,7 @@ During the EDA, we found out that there was many repeating video game titles due
 
 ### Descriptive
 #### Summary
-In the video games sales data for the period between 2004 to 2008, we had a total of fifteen(15) variables which consist of 6 categorical variable and 8 continous variables with one(1) date variable being the year. There were two hundred and fifty three(2530) publishers, nine hundred and five(925) developers, twelve(12) Genres and eleven(11) platforms.
+In the video games sales data for the period between 2004 to 2008, we had a total of fifteen(15) variables which consist of 6 categorical variable and 8 continuous variables with one(1) date variable being the year. There were two hundred and fifty three(2530) publishers, nine hundred and five(925) developers, twelve(12) Genres and eleven(11) platforms.
 
 From the immediate table below, there were a total of five thousand five hundred and thirty(5330) observations with an average overall global sales of 0.485968 million with a standard deviation of 1.380674 million. The global was obatined as a results of the sum of the regioanl sales (NA_Sales, EU_Sales, JP_Sales, Other_Sales,	Global_Sales). 
 ![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/Elfreda/Resources/Screen%20Shot%202022-12-08%20at%2010.34.34%20AM.png)
@@ -59,9 +59,9 @@ The database was created on Postgress which holds both the sales/critic score ta
 ## Machine Learning
 
 ### Purpose: 
-Supervised Machine learning (ML) as an explicit computer algorithm are used to solve such predictive problems. The purpose of this analysis is to employ different ML techniques to train and evaluate models to predict Global Sales. The techinques used here were Support Vector Machine(SVM) with linear kernel and Support Vector Machine(SVM) with guassian kernel. The evaluation metric used here were the R-squared and RMSE(Root Mean Squared Error).
+Supervised Machine learning (ML) as an explicit computer algorithm are used to solve such predictive problems. The purpose of this analysis is to employ different ML techniques to train and evaluate models to predict Global Sales. The techniques used here were Support Vector Machine(SVM) with linear kernel and Support Vector Machine(SVM) with gaussian kernel. The evaluation metric used here were the R-squared and RMSE(Root Mean Squared Error).
 
-The features considered were the Genre, platform and Critic Score. From which the data preprocessing was done using the encoding method on genre and platform. After which all the selected features were transformed on the standard scale.
+The features considered were the Genre, platform and Critic Score. From which the data pre-processing was done using the encoding method on genre and platform. After which all the selected features were transformed on the standard scale.
 
 ### Results:
 

@@ -45,10 +45,18 @@ We observed variations in global sales within the platforms with four(4) platfor
 
 
 
+## Database
+The database was created on Postgress which holds both the sales/critic score table and the games id table.
+![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/main/SQL/ERD_Rev3.png)
+![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/main/Dashboard/Tables.png)
+
+
 ## Machine Learning
 
 ### Purpose: 
-Supervised Machine learning (ML) as an explicit computer algorithm are used to solve such classification problems. The purpose of this analysis is to employ different ML techniques to train and evaluate models to predict Global Sales. The techinques used here were Support Vector Machine(SVM) with liner kernel and Support Vector Machine(SVM) with guassian kernel. The evaluation metric used here is the R-squared and RMSE(Root Mean Squared Error).
+Supervised Machine learning (ML) as an explicit computer algorithm are used to solve such predictive problems. The purpose of this analysis is to employ different ML techniques to train and evaluate models to predict Global Sales. The techinques used here were Support Vector Machine(SVM) with linear kernel and Support Vector Machine(SVM) with guassian kernel. The evaluation metric used here were the R-squared and RMSE(Root Mean Squared Error).
+
+The features considered were the Genre, platform and Critic Score. From which the data preprocessing was done using the encoding method on genre and platform. After which all the selected features were transformed on the standard scale.
 
 ### Results:
 
@@ -57,14 +65,10 @@ Supervised Machine learning (ML) as an explicit computer algorithm are used to s
 
 From the above table the evaluation mertics for SVM(Gaussian) was better than SVM(linear). However it does not suggest a good model because of the small predictive power(R-Squared value = 0.095.
 
+To improve the performance of the model a transformation approach was considered and the Global sales was transformed on the natural log scale. 
+
+![image](https://user-images.githubusercontent.com/85681665/206481607-13eb000e-0ddc-415a-ada1-57f70486c5c2.png)
 
 
 
 
-
-
-
-## Database
-The database was created on Postgress which holds both the sales/critic score table and the games id table.
-![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/main/SQL/ERD_Rev3.png)
-![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/main/Dashboard/Tables.png)

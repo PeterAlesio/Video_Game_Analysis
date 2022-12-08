@@ -15,3 +15,8 @@ We as a group decided to look at Video Games sales over a long period of time to
 
 ## Description of the EDA
 During the EDA, we found out that there was many repeating video game titles due to the same game being sold on multiple platforms. We also found an outlier with Wii sports as it was bundled in with the original wii which significantly inflated the total sales figure. Lastly we noticed that many small titles didnt have anyone to review those games which resulted in many nan values for reviews.
+
+## Database
+The database was created on Postgress which holds both the sales/critic score table and the games id table.
+![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/main/SQL/ERD_Rev3.png)
+![Image](https://github.com/PeterAlesio/Video_Game_Analysis/blob/main/Dashboard/Tables.png)

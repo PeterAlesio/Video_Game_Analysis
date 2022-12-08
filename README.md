@@ -65,10 +65,10 @@ The features considered were the Genre, platform and Critic Score. From which th
 
 From the above table the evaluation mertics for SVM(Gaussian) was better than SVM(linear). However it does not suggest a good model because of the small predictive power(R-Squared value = 0.095.
 
+
 To improve the performance of the model a transformation approach was considered and the Global sales was transformed on the natural log scale. 
 
 ![image](https://user-images.githubusercontent.com/85681665/206481607-13eb000e-0ddc-415a-ada1-57f70486c5c2.png)
 
-
-
+From the above table the evaluation mertics for SVM(Gaussian) was better than SVM(linear). We observed much improvement in the SVM(Gaussian) model for the tranformed log scale.
 
